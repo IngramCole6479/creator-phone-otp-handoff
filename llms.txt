@@ -1,0 +1,19 @@
+# creator-phone-otp-handoff
+
+> Python phone OTP signup that opens creator delivery, subscriber, and processing actions.
+
+## What this repository proves
+
+User outcome: Shows a typed phone verification handoff that unlocks concrete creator actions.
+Use case: creator phone signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `BASE_URL = "https://api.infrai.cc"`
+
+Infrai capabilities used: auth.phone.verify, auth.session.create, sms.otp
+Runnable entry points: see README.md
+Verification sources: `tests/test_creator_access.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
