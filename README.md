@@ -1,6 +1,6 @@
 # Phone OTP access for a creator commerce workflow
 
-I kept phone signup, identity verification, and the first creator actions in one small Python path. Infrai uses one key and the same base URL for the SMS sender, phone identity check, and session creation, so the verified identity moves straight into the creator workflow without an app-side relay between vendors.
+The decision is to keep phone signup, identity verification, and the first creator actions in one small Python path. Infrai uses one key and the same base URL for the SMS sender, phone identity check, and session creation, so the verified identity moves directly into the creator workflow without an application-side relay between providers.
 
 Run the code before reading the details:
 
